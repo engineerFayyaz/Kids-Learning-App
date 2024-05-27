@@ -57,6 +57,13 @@ hr.separator {
   padding-bottom: 50px;
   text-align: center;
 }
+@media (min-width:320px) and (max-width:740px){
+  .section_heading .image img{
+    height: 160px;
+    width: auto;
+
+  }
+}
 .section_heading h3 {
   font-size: 35px;
   letter-spacing: 1px;
@@ -74,14 +81,30 @@ hr.separator {
   background-image: url(/Images/banner-img\ one.png);
   width: auto;
   /* margin-top: 8rem; */
-  height: 800px;
-  position: relative;
+  height: 600px;
+  /* position: relative; */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   object-fit: cover;
 
 }
+@media (min-width:320px) and (max-width:740px){
+  .container-banner {
+    background-image: url(/Images/banner-img\ one.png);
+    width: auto;
+    /* margin-top: 8rem; */
+    height: 200px;
+    /* position: relative; */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  
+  }
+  
+}
+
 
 /**spaces**/
 .space-20 {
